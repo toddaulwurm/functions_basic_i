@@ -21,7 +21,7 @@ print(pandr(myList[0], myList[1]))
 
 
 # First Plus Length - Create a function that accepts a list and returns the sum of the first value in the list plus the list's length.
-myList = [19,3,9]
+myList = [1,2,3,4,5]
 def firstPlusLength(x):
     sum = x[0] + len(x)
     return sum
